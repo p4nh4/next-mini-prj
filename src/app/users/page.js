@@ -19,7 +19,7 @@ export default async function User(){
     return(
         <>
     <Navbar/>
-        <main className="flex flex-wrap items-center p-4 justify-around my-24 ">
+        <main className="block  my-24 ">
            
         {
             users.map((user)=>

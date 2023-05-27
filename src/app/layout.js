@@ -6,8 +6,13 @@ import Footer from '@/components/footer'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'MINI PROJECT',
-  description: 'istad-er'
+  title: 'AQUA',
+  description: 'create by istad-er',
+  thumbnail: 'https://i.pinimg.com/564x/82/22/93/8222935b6eb4e2852db3b304a99bf309.jpg',
+  openGraph: {
+    images: ['https://i.pinimg.com/564x/82/22/93/8222935b6eb4e2852db3b304a99bf309.jpg'],
+  },
+
 }
 
 export default function RootLayout({ children }) {
@@ -17,6 +22,7 @@ export default function RootLayout({ children }) {
         {/* <Navbar/> */}
         {children}
         {/* <Footer/> */}
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>
         </body>
     </html>
   )
